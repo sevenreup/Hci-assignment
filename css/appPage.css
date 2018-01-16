@@ -1,0 +1,211 @@
+.appPage-cover-info
+{
+	width: 70%;
+	float: right;
+	margin: 25px 0px 28px 0px;
+}
+.appPage-img img
+{
+	max-width: 150px;
+	max-height: 150px;
+}
+.appPage-img
+{
+	float: left;
+	width: 30%;
+	max-height: 180px;
+	margin: 25px 0px 28px 0px;
+}
+.app-name
+{
+	margin: 10px 0px 0px 0px;
+    color: #333;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 35px;
+    white-space: normal;
+}
+.appPage-cover-main, .appPage-cover-extra
+{
+	margin: 10px 0px 0px 0px;
+}
+.appPage-cover-extra i
+{
+	padding-left: 8px;
+}
+.appPage-download
+{
+	margin-top: 10px;
+}
+.appPage-download .download
+{
+	width: 50%;
+	float: right;
+    background: #8AC249;
+    height: 75px;
+    clear: none;
+    display: inline-block;
+    margin-left: 5px;
+    max-width: 300px;
+}
+.appPage-download .download h4 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 0.7;
+    display: block;
+    margin: 0;
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+.appPage-download .download p {
+    margin-top: 10px;
+    line-height: 2;
+    font-size: 11px;
+    margin-right: 10px;
+    float: left;
+    color: #fff;
+}
+.appPage-download .download div
+{
+	margin: 10px 40px 0px 24px;
+}
+.appPage-card .card-title
+{
+	margin-top: 0px;
+	font-size: 26px;
+	text-shadow: none;
+	text-align: center;
+	font-weight: 500;
+	color: white;
+	font-family:"Poppins",sans-serif;
+}
+.cat span
+{
+	border-left: 1px solid;
+    padding-left: 8px;
+}
+.owl-item .item img
+{
+	width: 100%;
+	height: 300px;
+}
+.meta-info h3, .meta-info p, .meta-info a
+{
+	font-size: 14px;
+
+}
+.meta-info a
+{
+	text-decoration: underline;
+}
+.com-lum
+{
+	width: 50%;
+}
+.com-item
+{
+	margin: 0px 11px 0px 11px;
+}
+.com-item p
+{
+	font-size: 14px;
+}
+.review-stats, .review-comments
+{
+	background: white;
+	padding: 20px 20px 20px 20px;
+}
+.review-stats ul
+{
+	list-style: none;
+}
+.review-stats h4
+{
+	text-align: center;
+}
+.progress p
+{
+	color: white;
+}
+.review-comments
+{
+	margin-top: 10px;
+}
+.review-stats-rate
+{
+	width: 20%;
+	float: left;
+}
+.review-stats-progress ul
+{
+	margin-top: 37px;
+}
+.progress 
+{
+	border-radius: 0px;
+}
+.progress-bar-success
+{
+	background: #99cc00;
+}
+.progress-bar-danger
+{
+	background: #88b131;
+}
+.progress-bar-info
+{
+	background: #ff6f31;
+}
+.review-stats-rate h3
+{
+	font-size: 64px;
+	margin-bottom: 0px;
+	font-family: "Roboto",UILanguageFont,Arial,sans-serif;
+	font-weight: 100;
+}
+.rating {
+    background: url("../img/star.png");
+    height: 14px;
+    width: 64px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.payment
+{
+    list-style: none;
+    padding-right: 40px;
+}
+.payment li
+{
+    float: left;
+    width: 50%;
+}
+.payment li .payment-body
+{
+	padding: 0px 30%;
+}
+.payment-body img
+{
+    height: 100px;
+    width: 100px;
+}
+.payment-title
+{
+    position: absolute;
+    top: 56px;
+}
+.payment-title p
+{
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+.form-horizontal .control-label
+{
+    text-align: left;
+}
+legend
+{
+    text-align: center;
+}

@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MFrare</title>
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../../css/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/appPage.css">
+    <link rel="stylesheet" type="text/css" href="../../css/appcards.css">
+    <link rel="stylesheet" type="text/css" href="../../css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="../../css/transitions.css">
+    <link rel="stylesheet" type="text/css" href="../../css/footer.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <!-- Sidebar Header -->
+            <div class="sidebar-header">
+                <img src="../../img/hci.png" />
+            </div>
+
+            <!-- Sidebar Links -->
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="../../index.html">Apps</a>
+                </li>
+                <li>
+                    <a href="#">Games</a>
+                </li>
+                <li>
+                    <!-- Link with dropdown items -->
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Platforms</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Android</a>
+                        </li>
+                        <li>
+                            <a href="#">Windows</a>
+                        </li>
+                        <li>
+                            <a href="#">Mac</a>
+                        </li>
+                        <li>
+                            <a href="#">iPhone</a>
+                        </li>
+                        <li>
+                            <a href="#">Linux</a>
+                        </li>
+                    </ul>
+                    <!-- replacements and shit -->
+                <li><a href="../siteinfo/contact.html">Contact</a></li>
+                    <li>
+                        <a href="../siteinfo/faq.html">Faq</a>
+                    </li>
+            </ul>
+        </nav>
+        <div class="holdor">
+            <nav class="top-navigation navbar navbar-inverse navbar-static-top navbar-fixed-top" role="navigation">
+                <div id="content" class="pull-left">
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                <div class="main">
+                    <div>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="" placeholder="search" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </form>
+                        <div class="dropdown cat-main">
+                            <a class="data-toggle" data-toggle="dropdown" href="#" role="button">
+                                <button class="">Categories</button></a>
+                                <div class="btn-group">
+                                    <button class="platform dropdown-toggle" data-toggle="dropdown">
+                                        <img src="../../img/icon/if_windows8_313079.png"/>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li role="button"><img src="../../img/icon/if_mac_os_X_395229.png"/></li>
+                                        <li role="button"><img src="../../img/icon/if_linux_tox_395228.png"/></li>
+                                        <li role="button"><img src="../../img/icon/if_apple_1220384.png"/></li>
+                                        <li role="button"><img src="../../img/icon/if_android_313085.png"/></li>
+                                    </ul>
+                                </div>
+                            <div class="cat-drop dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                <div class="row">
+                                    <div class="col-md-2 cat-d">
+                                        <h4>Communication</h4>
+                                        <ul class="cat-list">
+                                            <li><a href="#">Messaging</a></li>
+                                            <li><a href="#">Social</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-2 cat-d">
+                                        <h4>Games</h4>
+                                        <ul class="cat-list">
+                                            <li><a href="#">Action/Adventure</a></li>
+                                            <li><a href="#">Arcade</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-2 cat-d">
+                                        <h4>Lifestyle</h4>
+                                        <ul class="cat-list">
+                                            <li><a href="#">Fitness</a></li>
+                                            <li><a href="#">Health</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-2 cat-d">
+                                        <h4>Multimedia</h4>
+                                        <ul class="cat-list">
+                                            <li><a href="#">Audio</a></li>
+                                            <li><a href="#">Video</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-2 cat-d">
+                                        <h4>Productivity</h4>
+                                        <ul class="cat-list">
+                                            <li><a href="#">Finance</a></li>
+                                            <li><a href="#">Personal</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <a href="../cat/cart.html"><i class="fa fa-chevron-right fa-3x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </nav>
+            <div class="inner-container container">
+                <div class="row">
+                    <section class="col-md-6" style="background: white;">
+                        <div class="appPage-info-header">
+                            <div class="appPage-img">
+                                <img src="../../img/icon/100522_app_512x512.png" />
+                            </div>
+                            <div class="appPage-cover-info">
+                                <p class="app-name">Facebook Messenger</p>
+                                <div class="appPage-cover-main pull-left">
+                                    <a href="">
+                                        <span>Facebook .inc</span>
+                                    </a>
+                                    <a href="" class="cat">
+                                        <span>Social</span>
+                                    </a>
+                                </div>
+                                <div class="appPage-cover-extra pull-right">
+                                    <span>23k
+                                        <i class="fa fa-download"></i>
+                                    </span>
+                                    <span>10k
+                                        <i class="fa fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="appPage-download">
+                                    <span>
+                                        <span>
+                                            <i class="fa fa-heart"></i> add to wishlist</span>
+                                    </span>
+                                    <a class="download" href="#" data-toggle="modal" data-target="#download">
+                                        <div>
+                                            <h4>Download</h4>
+                                            <p>$24</p>
+                                            <p>20.30MB</p>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="download" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content" style="margin-top: 80px;">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                                &times;
+                                            </button>
+                                            <h4 class="modal-title" id="myModalLabel">Choose payment information?</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <ul class="payment">
+                                                <li>
+                                                    <a href="#mobile-payment" data-toggle="tab">
+                                                        <div class="payment-body">
+                                                            <div class="payment-img">
+                                                                <img src="../../img/icon/mobile-phone.png" />
+                                                            </div>
+                                                            <div class="payment-title">
+                                                                <p>Mobile Payment</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#visa" data-toggle="tab">
+                                                        <div class="payment-body">
+                                                            <div class="payment-img">
+                                                                <img src="../../img/icon/002-credit-card-1.png" />
+                                                            </div>
+                                                            <div class="payment-title">
+                                                                <p>Card Payment</p>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <div class="clearfix"></div>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade" id="mobile-payment">
+                                                    <form class="form-horizontal">
+                                                        <fieldset>
+                                                            <legend>Payment</legend>
+                                                            <div class="form-group">
+                                                                <label class="col-sm-3 control-label">Full Name</label>
+                                                                <div class="col-sm-9">
+                                                                    <input type="text" class="form-control" name="card-holder" placeholder="John Smith">
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="col-sm-3 control-label">Mobile service</label>
+                                                                <div class="col-sm-9">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-9">
+                                                                            <select class="form-control col-sm-2" name="card">
+                                                                                <option>Service name</option>
+                                                                                <option value="01">Mpamba</option>
+                                                                                <option value="01">Airtel Money</option>
+                                                                                <option value="01">Mo26</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="col-sm-3 control-label">Phonenumber</label>
+                                                                <div class="col-sm-9">
+                                                                    <input type="number" class="form-control" name="card-holder" placeholder="088009000">
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <div class="col-sm-offset-5 col-sm-2">
+                                                                    <button class="btn btn-success">Pay Now</button>
+                                                                </div>
+                                                            </div>
+                                                        </fieldset>
+                                                    </form>
+                                                </div>
+                                                <div class="tab-pane fade" id="visa">
+                                                    <div class="payment-content">
+                                                        <form class="form-horizontal">
+                                                            <fieldset>
+                                                                <legend>Payment</legend>
+                                                                <div class="form-group">
+                                                                    <label class="col-sm-3 control-label">Full Name</label>
+                                                                    <div class="col-sm-9">
+                                                                        <input type="text" class="form-control" name="card-holder" placeholder="John Smith">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="col-sm-3 control-label">Credit card</label>
+                                                                    <div class="col-sm-9">
+                                                                        <div class="row">
+                                                                            <div class="col-sm-9">
+                                                                                <select class="form-control col-sm-2" name="card">
+                                                                                    <option>Card Type</option>
+                                                                                    <option value="01">Visa</option>
+                                                                                    <option value="01">Mastercard</option>
+                                                                                    <option value="01">Maestro</option>
+                                                                                    <option value="01">Visa Debit</option>
+                                                                                    <option value="01">Visa Electronic</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="col-sm-3 control-label">Card Number</label>
+                                                                    <div class="col-sm-9">
+                                                                        <input type="text" class="form-control" name="card-number">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="col-sm-3 control-label">Expiry Date</label>
+                                                                    <div class="col-sm-9">
+                                                                        <div class="row">
+                                                                            <div class="col-xs-4">
+                                                                                <select class="form-control col-sm-2" name="expiry-month">
+                                                                                    <option>Month</option>
+                                                                                    <option value="01">Jan (01)</option>
+                                                                                    <option value="01">Feb (01)</option>
+                                                                                    <option value="01">Mar (01)</option>
+                                                                                    <option value="01">Apr (01)</option>
+                                                                                    <option value="01">May (01)</option>
+                                                                                    <option value="01">June (01)</option>
+                                                                                    <option value="01">July (01)</option>
+                                                                                    <option value="01">Aug (01)</option>
+                                                                                    <option value="01">Sep (01)</option>
+                                                                                    <option value="01">Oct (01)</option>
+                                                                                    <option value="01">Nov (01)</option>
+                                                                                    <option value="01">Dec (01)</option>
+                                                                                </select>
+                                                                            </div>
+                                                                            <div class="col-xs-4">
+                                                                                <select class="form-control col-sm-2" name="expiry-month">
+                                                                                    <option>Year</option>
+                                                                                    <option value="01">2019</option>
+                                                                                    <option value="01">2020</option>
+                                                                                    <option value="01">2021</option>
+                                                                                    <option value="01">2022</option>
+                                                                                    <option value="01">2023</option>
+                                                                                    <option value="01">2024</option>
+                                                                                    <option value="01">2025</option>
+                                                                                    <option value="01">2026</option>
+                                                                                    <option value="01">2027</option>
+                                                                                    <option value="01">2028</option>
+                                                                                    <option value="01">2029</option>
+                                                                                    <option value="01">2030</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label class="col-sm-3 control-label">Card CVV</label>
+                                                                    <div class="col-sm-9">
+                                                                        <input type="text" class="form-control" name="card-cvv">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <div class="col-sm-offset-5 col-sm-2">
+                                                                        <button class="btn btn-success">Pay Now</button>
+                                                                    </div>
+                                                                </div>
+                                                            </fieldset>
+                                                        </form>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="content-wrap">
+                            <section id="section-line-1">
+                                <div id="owl-demo" class="owl-carousel text-center">
+                                    <div class="item">
+                                        <figure class="slide-fig-up">
+                                            <img src="../../img/app/wht (1).jpg" />
+                                            <figcaption></figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item">
+                                        <figure class="slide-fig-up">
+                                            <img src="../../img/app/wht (1).jpeg" />
+                                            <figcaption></figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item">
+                                        <figure class="slide-fig-up">
+                                            <img src="../../img/app/wht (1).png" />
+                                            <figcaption></figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item">
+                                        <figure class="slide-fig-up">
+                                            <img src="../../img/app/wht (2).png" />
+                                            <figcaption></figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item">
+                                        <figure class="slide-fig-up">
+                                            <img src="../../img/app/wht (3).png" />
+                                            <figcaption></figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item">
+                                        <figure class="slide-fig-up">
+                                            <img src="../../img/app/wht (4).png" />
+                                            <figcaption></figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="item">
+                                        <figure class="slide-fig-up">
+                                            <img src="../../img/app/wht (5).png" />
+                                            <figcaption></figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+                        <div class="appPage-all-details">
+                            <h3>Description</h3>
+                            <p>MilkChoco is a multiplayer shooting game that challenges two teams, of up to five players, to
+                                face each other inside amazing open settings. The players can pick any of the two opposing
+                                sides: milk or chocolate. Within each side, you’ll find several professions: attacker, doctor,
+                                bomber, sniper, etc...</p>
+                            <button class="center-block more-btn">
+                                <ul style="list-style: none;">
+                                    <li class="line">
+                                        <p></p>
+                                    </li>
+                                    <li class="mid-more">more</li>
+                                    <li class="line">
+                                        <p></p>
+                                    </li>
+                                </ul>
+                            </button>
+                        </div>
+                        <div class="well">
+                            <h4>More Info</h4>
+                            <div class="meta-info row">
+                                <div class="col-md-4">
+                                    <h3>Requeires android</h3>
+                                    <p>4.4 and up</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3>Update</h3>
+                                    <p>May 12, 2017</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3>Version</h3>
+                                    <p>3.0.1</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3>Lincense</h3>
+                                    <p>Free</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3>Cartigories</h3>
+                                    <p>
+                                        <a href="">Social</a>
+                                    </p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3>Author</h3>
+                                    <p>Facebook .inc</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3>Size</h3>
+                                    <p>24MB</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3>Developer info</h3>
+                                    <p>
+                                        <a href="">Visit Website</a>
+                                    </p>
+                                    <p>
+                                        <a href="">Email Developer</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-md-6">
+                        <div class="review-stats">
+                            <h4>Reviews</h4>
+                            <div class="review-stats-rate col-md-3">
+                                <h3>5.0</h3>
+                                <span class="rating"></span>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="review-stats-progress col-md-8">
+                                <ul>
+                                    <li>
+                                        <div class="progress progress-striped active">
+                                            <div class="progress-bar progress-bar-success" role="progress-bar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                                                style="width: 40%;">
+                                                <p>Userbility</p>
+                                                <span class="sr-only">40% complete</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="progress progress-striped active">
+                                            <div class="progress-bar progress-bar-danger" role="progress-bar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                                                style="width: 60%;">
+                                                <p>Speed</p>
+                                                <span class="sr-only">40% complete</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="progress progress-striped active">
+                                            <div class="progress-bar progress-bar-info" role="progress-bar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                                                style="width: 30%;">
+                                                <p>Interaction</p>
+                                                <span class="sr-only">40% complete</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <div class="clearfix"></div>
+                                </ul>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="review-comments">
+                            <div class="comments">
+                                <div class="com-lum pull-left">
+                                    <div class="com-item">
+                                        <span>Micheal Whatsaface</span>
+                                        <div>
+                                            <p>I've been tinkering w/ kwlp for a while now and after purchasing the widget pro
+                                                key I saw this app. Haven't used it yet but from reading the reviews AND
+                                                seeing the </p>
+                                        </div>
+                                    </div>
+                                    <div class="com-item">
+                                        <span>Jacob Shrong</span>
+                                        <div>
+                                            <p>I've been tinkering w/ kwlp for a while now and after purchasing the widget pro
+                                                key I saw this app. Haven't used it yet but from reading the reviews AND
+                                                seeing the </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="com-lum pull-right">
+                                    <div class="com-item">
+                                        <span>Hellen Bill</span>
+                                        <div>
+                                            <p>I've been tinkering w/ kwlp for a while now and after purchasing the widget pro
+                                                key I saw this app. Haven't used it yet but from reading the reviews AND
+                                                seeing the </p>
+                                        </div>
+                                    </div>
+                                    <div class="com-item">
+                                        <span>Athor lastname</span>
+                                        <div>
+                                            <p>I've been tinkering w/ kwlp for a while now and after purchasing the widget pro
+                                                key I saw this app. Haven't used it yet but from reading the reviews AND
+                                                seeing the </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <button class="center-block more-btn">
+                                <ul style="list-style: none;">
+                                    <li class="line">
+                                        <p></p>
+                                    </li>
+                                    <li class="mid-more">more</li>
+                                    <li class="line">
+                                        <p></p>
+                                    </li>
+                                </ul>
+                            </button>
+                        </div>
+                        <div class="card-app appPage-card">
+                            <div class="card-holder">
+                                <div class="card-title">
+                                    <span>Related apps</span>
+                                </div>
+                                <div class="card">
+                                    <div class="app">
+                                        <div class="card-img">
+                                            <img src="../../img/icon/if_youtube_2308143.png">
+                                        </div>
+                                        <div class="app-maker">youtube</div>
+                                        <div class="app-info">
+                                            <h4>youtube</h4>
+                                            <span class="star-rating">
+                                                <div class="rating"></div>
+                                                <div class="price-rating">
+                                                    <p>free</p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="app">
+                                        <div class="card-img">
+                                            <img src="../../img/icon/if_yelp_2308041.png">
+                                        </div>
+                                        <div class="app-maker">yelp</div>
+                                        <div class="app-info">
+                                            <h4>yelp</h4>
+                                            <span class="star-rating">
+                                                <div class="rating"></div>
+                                                <div class="price-rating">
+                                                    <p>free</p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="app">
+                                        <div class="card-img">
+                                            <img src="../../img/icon/if_yahoo_2308142.png">
+                                        </div>
+                                        <div class="app-maker">yahoo</div>
+                                        <div class="app-info">
+                                            <h4>yahoo</h4>
+                                            <span class="star-rating">
+                                                <div class="rating"></div>
+                                                <div class="price-rating">
+                                                    <p>free</p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="app">
+                                        <div class="card-img">
+                                            <img alt="Corsa Racer" src="../../img/icon/if_wordpress_2308140.png">
+                                        </div>
+                                        <div class="app-maker">wordpress</div>
+                                        <div class="app-info">
+                                            <h4>wordpress</h4>
+                                            <span class="star-rating">
+                                                <div class="rating"></div>
+                                                <div class="price-rating">
+                                                    <p>free</p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="app">
+                                        <div class="card-img">
+                                            <img alt="Corsa Racer" src="../../img/icon/if_weibo_2308139.png">
+                                        </div>
+                                        <div class="app-maker">weibo</div>
+                                        <div class="app-info">
+                                            <h4>weibo</h4>
+                                            <span class="star-rating">
+                                                <div class="rating"></div>
+                                                <div class="price-rating">
+                                                    <p>free</p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="app">
+                                        <div class="card-img">
+                                            <img alt="Corsa Racer" src="../../img/icon/if_weheartit_2308138.png">
+                                        </div>
+                                        <div class="app-maker">weheartit</div>
+                                        <div class="app-info">
+                                            <h4>weheartit</h4>
+                                            <span class="star-rating">
+                                                <div class="rating"></div>
+                                                <div class="price-rating">
+                                                    <p>free</p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="card-holder-more">
+                                <button class="center-block more-btn">
+                                    <ul style="list-style: none;">
+                                        <li class="line">
+                                            <p></p>
+                                        </li>
+                                        <li class="mid-more">more</li>
+                                        <li class="line">
+                                            <p></p>
+                                        </li>
+                                    </ul>
+                                </button>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+            <footer class="foot">
+                <div class="footer-content container">
+                    <p>MFrare Downloads</p>
+                    <ul>
+                        <li>About Us</li>
+                        <li>
+                            <a href="../siteinfo/contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="../siteinfo/faq.html">More info</a>
+                        </li>
+                        <li>
+                            <a href="#">privacy and cookies policy</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>Developer portal</li>
+                        <li>
+                            <a href="#">Contact us</a>
+                        </li>
+                        <li>
+                            <a href="#">DMCA</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-bottom container">
+                    <div class="col-md-6 footer-rights">
+                        <div class="copyright">
+                            <p>© 2017 SEvEn. All Rights Reserved | Design by me!!!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 footer-social">
+                        <ul class="social-icons">
+                            <li>
+                                <a title="Go to Our Facebook Page" class="facebook" href="#">
+                                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a title="Go to Our Twitter Account" class="twitter" href="#">
+                                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a title="Go to Our Google Plus Account" class="googleplus" href="#">
+                                    <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a title="Go to Our Instagram Account" class="instagram" href="#">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a title="Go to Our Youtube Channel" class="youtube" href="#">
+                                    <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/owl.carousel.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#owl-demo").owlCarousel({
+                autoPlay: 3000,
+                items: 3,
+                itemsDesktop: [1024, 3],
+                itemsDesktopSmall: [414, 2]
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

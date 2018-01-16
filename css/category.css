@@ -1,0 +1,14 @@
+.category .col-md-5
+{
+	background: white;
+	margin: 4px 4px;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+.category .category_list li
+{
+	float: left;
+    padding: 5px 10px;
+    margin: 5px 5px;
+    background: #ddd;
+}

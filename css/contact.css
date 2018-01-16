@@ -1,0 +1,43 @@
+.contact-right, .contact-left
+{
+	min-height: 122px;
+}
+.contact-left
+{
+	background: #0ea2a7;
+	text-align: center;
+}
+.contact-left i
+{
+    font-size: 2em;
+    color: #fff;
+    line-height: 3.8em;
+}
+.contact-right
+{
+	background: #1bb4b9;
+	padding: 0.5em;
+}
+.contact-right h4
+{
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, 0.58);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+.contact-right p
+{
+    color: #fff;
+    line-height: 2em;
+    font-size: 14px;
+}
+
+.mid .contact-right
+{
+	background: #8AC249!important;
+}
+.mid .contact-left
+{
+	background: #689f38!important;
+}
